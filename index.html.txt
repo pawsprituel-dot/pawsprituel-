@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw Spritüel – İnsan ve Köpeğin Ortak Ruhsal Yolculuğu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a2e; /* Koyu gece mavisi */
+            color: #e0e0e0; /* Açık gri */
+            line-height: 1.8;
+        }
+
+        header {
+            background-color: #0f0a1c; /* Daha koyu ton */
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 2px solid #5d5d81;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Cinzel', serif; /* Süslü font */
+            font-size: 3em;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            color: #ffde59; /* Altın sarısı */
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-family: 'Cinzel', serif;
+            font-size: 2.5em;
+            color: #a45a99; /* Mor tonu */
+            margin-top: 60px;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
+        }
+
+        .package-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .package-card {
+            background-color: #2a2a47; /* Kart arka planı */
+            border: 1px solid #4b4b6b;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            max-width: 350px;
+            text-align: center;
+        }
+
+        .package-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+            border-color: #ffde59;
+        }
+
+        .package-card h3 {
+            font-family: 'Cinzel', serif;
+            color: #ffde59; /* Altın sarısı */
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+
+        .package-card p {
+            font-size: 1.1em;
+            color: #d0d0d0;
+        }
+
+        .level {
+            font-weight: bold;
+            color: #a45a99;
+            font-style: italic;
+        }
+
+        .contact-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #0f0a1c;
+            margin-top: 60px;
+        }
+
+        .contact-section h2 {
+            font-family: 'Cinzel', serif;
+            color: #a45a99;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: #ffde59;
+            font-size: 2em;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #fff;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            color: #d0d0d0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0f0a1c;
+            border-top: 1px solid #4b4b6b;
+            color: #a45a99;
+        }
+
+        /* Responsive Tasarım */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .section-title {
+                font-size: 2em;
+            }
+            .package-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .package-card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Paw Spritüel – İnsan ve Köpeğin Ortak Ruhsal Yolculuğu</h1>
+    </header>
+
+    <main>
+        <h2 class="section-title">Eğitim Paketlerimiz</h2>
+        <div class="package-container">
+            <div class="package-card">
+                <h3>Paket 1: Temel Bağ Kurma</h3>
+                <p>İnsan ve köpek arasında temel bir ruhsal bağ oluşturmanın yollarını keşfedin. Meditasyon ve enerji çalışmaları ile ilk adımı atın.</p>
+                <p class="level">Seviye: Başlangıç</p>
+            </div>
+
+            <div class="package-card">
+                <h3>Paket 2: Duygusal Uyum</h3>
+                <p>Köpeğinizin duygusal ihtiyaçlarını anlamayı ve onunla daha derin bir seviyede iletişim kurmayı öğrenin. Duygusal blokajları çözün.</p>
+                <p class="level">Seviye: Orta</p>
+            </div>
+
+            <div class="package-card">
+                <h3>Paket 3: Enerji Akışı</h3>
+                <p>Çakra dengeleme ve enerji temizleme teknikleriyle hem kendinizin hem de köpeğinizin enerji alanlarını uyumlu hale getirin.</p>
+                <p class="level">Seviye: Orta-İleri</p>
+            </div>
+
+            <div class="package-card">
+                <h3>Paket 4: Ruhsal Farkındalık</h3>
+                <p>Ortak ruhsal yolculuğunuzda daha ileri adımlar atın. Hayvan telepatisi ve sezgisel rehberlik üzerine çalışmalar yapın.</p>
+                <p class="level">Seviye: İleri</p>
+            </div>
+
+            <div class="package-card">
+                <h3>Paket 5: Bütünsel Dönüşüm</h3>
+                <p>Tüm öğrendiklerinizi birleştirerek insan ve köpeğin bütünsel bir varlık olarak dönüşümünü deneyimleyin.</p>
+                <p class="level">Seviye: Usta</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="contact-section">
+        <h2>Bize Ulaşın</h2>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/pawsprituel" target="_blank" aria-label="Instagram Sayfamız">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/905537322235?text=Merhaba,%20Paw%20Spritüel%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" aria-label="WhatsApp ile İletişim">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <p class="contact-info">Sorularınız için bizimle iletişime geçebilirsiniz.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Paw Spritüel. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+</body>
+</html>
